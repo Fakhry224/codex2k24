@@ -24,7 +24,7 @@ def public():
     if 'source' in request.args:
         return display_source_code()
     
-    return 'I wonder why there\'s nothing here 🤔'
+    return render_template('index.html')
 
 @app.route('/private')
 def private():
@@ -44,7 +44,7 @@ def generate_token(username):
     payload = {
         'username': username,
         'role': users[username]['role'],
-        'exp': datetime.utcnow() + timedelta(minutes=10)
+        'exp': datetime.utcnow() + timedelta(minutes=1)
     }
     token = jwt.encode(payload, app.config['SECRET_KEY'], algorithm="HS256")
     return token
