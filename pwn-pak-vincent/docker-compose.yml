@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  vuln_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "33333:33333" # Map port 3333 on your VPS to port 3333 in the container
+    restart: always # Automatically restart the container if it crashes
