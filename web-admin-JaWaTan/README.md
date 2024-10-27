@@ -20,3 +20,6 @@ Author: **anakmamah**
 - add "Authorization" header and add the modified JWT
 - access the /admin
 - Congrats u get the flag!
+
+- ## Flag
+- CODEX2K24{e4sy_jwt_vuln3r4B1lity}
