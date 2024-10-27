@@ -21,5 +21,5 @@ Author: **anakmamah**
 - access the /admin
 - Congrats u get the flag!
 
-- ## Flag
-- CODEX2K24{e4sy_jwt_vuln3r4B1lity}
+## Flag
+CODEX2K24{e4sy_jwt_vuln3r4B1lity}
