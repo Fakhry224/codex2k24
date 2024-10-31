@@ -6,6 +6,8 @@ Rasanya tadi aku lihat flagnya di sini, tapi sekarang... hilang entah ke mana �
 
 Mungkin saja ada di balik beberapa file yang tersembunyi 🕵️‍♂️
 
+Author: **anakmamah**
+
 ## HINT
 - Sepertinya judulnya menarik 🤔
 - Deskripsinya juga menarik nih
