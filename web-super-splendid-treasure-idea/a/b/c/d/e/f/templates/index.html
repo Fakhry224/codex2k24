@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Splendid Treasure Idea</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        user-select: none;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #5f9ea0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 24px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tell me what you want</h1>
+    <form method="post">
+      <input type="text" id="gift" name="gift" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
