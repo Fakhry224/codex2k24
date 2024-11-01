@@ -4,8 +4,8 @@ exe = './vuln'
 elf = context.binary = ELF(exe, checksec=False)
 context.log_level = 'debug'
 
-p = process(exe)
-#p = remote('103.127.137.156', 1212)
+# p = process(exe)
+p = remote('103.127.137.156', 1212)
 
 win_addr = p.recvline_contains(b"win addr").strip().split(b"0x")[-1]
 win_addr = int(win_addr, 16)
