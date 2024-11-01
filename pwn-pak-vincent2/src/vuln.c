@@ -11,8 +11,13 @@ void setup() {
   setresgid(gid, gid, gid);
 }
 
+void teleport();
+void win();
+
 int main() {
   setup();
+
+  printf("Ini apa ya ....(win addr): %p\n", (void*)win);
 
   char key1[32];
   char key2[32];
