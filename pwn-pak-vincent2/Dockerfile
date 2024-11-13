@@ -24,4 +24,4 @@ RUN chown -R challenge_user:challenge_user /home/challenge_user
 
 EXPOSE 51234
 
-CMD ["socat", "TCP-LISTEN:1271,reuseaddr,fork", "EXEC:/home/challenge_user/chall,pty,stderr"]
+CMD ["socat", "TCP-LISTEN:51234,reuseaddr,fork", "EXEC:/home/challenge_user/chall,pty,stderr"]
