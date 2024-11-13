@@ -8,4 +8,6 @@ WORKDIR /challenge
 COPY /src/chall /challenge/chall
 RUN chmod +x /challenge/chall
 
+COPY flag.txt /challenge/flag.txt
+
 CMD ["socat", "TCP-LISTEN:12121,reuseaddr,fork", "EXEC:/challenge/chall,pty,echo=0,raw"]
