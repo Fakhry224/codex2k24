@@ -17,7 +17,7 @@ WORKDIR /home/challenge_user
 
 COPY /src/chall /home/challenge_user/chall
 COPY flag.txt /home/challenge_user/flag.txt
-COPY xinetd.conf /etc/xinetd.d/balik_ke_perpus
+COPY xinetd.conf /etc/xinetd.d/pak-vincent2
 
 RUN chmod +x /home/challenge_user/chall
 RUN chown -R challenge_user:challenge_user /home/challenge_user
