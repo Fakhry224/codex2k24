@@ -6,6 +6,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "1212:1212"
+      - "12121:12121"
     restart: always
     privileged: true
